@@ -2,7 +2,7 @@ import PixelSnow from "./background";
 
 export default function BackgroundTheme({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen w-screen relative flex justify-center p-20">
+    <div className="min-h-screen w-screen relative flex justify-center p-20 inset-0">
       <PixelSnow
         color="#ffffff"
         flakeSize={0.01}
@@ -16,9 +16,11 @@ export default function BackgroundTheme({ children }: { children: React.ReactNod
         farPlane={20}
         gamma={0.4545}
         variant="square"
-    />
+      />
 
-      {children}
+      <div className="relative z-10">
+        {children}
+      </div>
     </div>
   )
 }

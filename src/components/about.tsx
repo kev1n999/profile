@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="flex justify-center flex-col gap-3 md:grid place-items-center grid-cols-2 p-20">
       <div className="flex flex-col">
-        <div className="flex justify-center p-4">
-          <img src={profile} className="h-46 w-40"></img>
+        <div className="flex justify-center">
+          <img src={profile} className="h-46 w-40 relative bottom-12"></img>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ export default function Skills() {
 
           <div className="flex flex-col gap-6 pt-6 md:relative right-36">
             <div>
-              <h1 className="text-white text-2xl p-1 before:content-['>']"> Langs that i know to use</h1>
+              <h1 className="text-white text-lg md:text-2xl p-1 before:content-['>']"> Langs that i know to use</h1>
               <div className="flex flex-row gap-2 mt-4">
                 <a href="https://python.org/">
                   <img src="/icons/python.png" className="h-10"></img>
@@ -24,7 +24,7 @@ export default function Skills() {
             </div>
 
             <div>
-              <h1 className="text-white text-2xl p-1 before:content-['>']"> Back-end & Database (Basics)</h1>
+              <h1 className="text-white text-lg md:text-2xl p-1 before:content-['>']"> Back-end & Database (Basics)</h1>
               <div className="flex flex-row gap-2 mt-4">
                 <a href="https://python.org/">
                   <img src="/icons/node-js.png" className="h-10"></img>
@@ -48,7 +48,7 @@ export default function Skills() {
             </div>
 
             <div>
-              <h1 className="text-white text-2xl p-1 before:content-['>']"> Front-end</h1>
+              <h1 className="text-white text-lg md:text-2xl p-1 before:content-['>']"> Front-end</h1>
               <div className="flex flex-row gap-2 mt-4">
                 <a href="https://python.org/">
                   <img src="/icons/html.svg" className="h-10"></img>
@@ -66,7 +66,7 @@ export default function Skills() {
             </div>
 
             <div>
-              <h1 className="text-white text-2xl p-1 before:content-['>']"> Langs that im studying</h1>
+              <h1 className="text-white text-lg md:text-2xl p-1 before:content-['>']"> Langs that im studying</h1>
               <div className="flex flex-row gap-2">
                 <a href="https://rust-lang.org/">
                   <img src="/icons/rust.png" className="h-10"></img>

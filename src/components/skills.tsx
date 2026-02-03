@@ -5,12 +5,12 @@ export default function Skills() {
     <BackgroundTheme>
       <div className="flex justify-center p-20">
         <div className="flex flex-col gap-3">
-          <h1 className="text-white text-3xl text-center">Languages/Studies/Tools</h1>
+          <h1 className="text-white text-3xl text-center underline"># Languages/Studies/Tools</h1>
 
-          <div className="grid grid-cols-3 gap-6 pt-6">
+          <div className="flex flex-col gap-6 pt-6 relative right-36">
             <div>
-              <h1 className="text-white text-2xl p-1">Programming languages</h1>
-              <div className="flex justify-center flex-row gap-2">
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Langs that i know to use</h1>
+              <div className="flex flex-row gap-2 mt-4">
                 <a href="https://python.org/">
                   <img src="/icons/python.png" className="h-10"></img>
                 </a>
@@ -24,8 +24,50 @@ export default function Skills() {
             </div>
 
             <div>
-              <h1 className="text-white p-1 text-2xl">Tools that im Studying</h1>
-              <div className="flex justify-center flex-row gap-2">
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Back-end & Database (Basics)</h1>
+              <div className="flex flex-row gap-2 mt-4">
+                <a href="https://python.org/">
+                  <img src="/icons/node-js.png" className="h-10"></img>
+                </a>
+                <a href="https://python.org/">
+                  <img src="/icons/express.svg" className="h-10"></img>
+                </a>
+                <a href="https://python.org/">
+                  <img src="/icons/flask.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/mysql.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/mongodb.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/prisma.svg" className="h-10"></img>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Front-end</h1>
+              <div className="flex flex-row gap-2 mt-4">
+                <a href="https://python.org/">
+                  <img src="/icons/html.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/css.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/tailwindcss.svg" className="h-10"></img>
+                </a>
+                <a href="https://devdocs.io/javascript/">
+                  <img src="/icons/react.svg" className="h-10"></img>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Langs that im studying</h1>
+              <div className="flex flex-row gap-2">
                 <a href="https://rust-lang.org/">
                   <img src="/icons/rust.png" className="h-10"></img>
                 </a>
@@ -33,7 +75,7 @@ export default function Skills() {
             </div>
 
             <div>
-              <h1 className="text-white p-1 text-2xl">Another tools</h1>
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Operational systems i use</h1>
               <div className="flex flex-row gap-2">
                 <a href="https://rust-lang.org/">
                   <img src="/icons/linux.png" className="h-10"></img>

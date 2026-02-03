@@ -5,16 +5,16 @@ export default function NavBar() {
   return (
     <header>
       <nav className="flex justify-center pt-20">
-        <ul className="flex justify-between gap-3.5">
+        <ul className="relative left-20 flex justify-between gap-3.5 md:static">
           <NavItem source="/" content="home" />
           <NavItem source="/skills" content="skills" />
           <NavItem source="/contacts" content="contacts" />
         </ul>
-        <div className="ml-56">
+        <div className="ml-56 relative right-16 md:static">
             <a href="https://github.com/kev1n999"
               className="
-                text-white relative transition-all before:inline-block before:w-4 before:content-['#']
-                hover:before:content-['~'] text-2xl underline
+                text-white relative transition-all md:before:inline-block before:w-4 before:content-['#']
+                hover:before:content-['>'] md:text-2xl underline
               "
             >github</a>
         </div>
@@ -38,8 +38,8 @@ function NavItem({ source, content }: LinkProps) {
       <Link
         to={source}
         className="
-          text-white relative transition-all before:inline-block before:w-4 before:content-['#']
-          hover:before:content-['>'] text-2xl underline
+          text-white relative transition-all md:before:inline-block before:w-4 before:content-['#']
+          hover:before:content-['>'] md:text-2xl underline
         "
       >
         { content }

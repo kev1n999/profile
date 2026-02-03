@@ -11,9 +11,9 @@ export default function About() {
 
       <div className="md:relative right-24">
         <div className="flex justify-center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=960&color=F7F7F7&width=435&lines=Hello!+Welcome+to+my+profile!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg" className="w-64 sm:w-80 md:w-[435px] h-auto"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=960&color=F7F7F7&width=435&lines=Hello!+Welcome+to+my+profile!" alt="Typing SVG" /></a>
         </div>
-        <p className="text-neutral-500 text-center text-2xl max-w-xl mx-auto">
+        <p className="text-neutral-500 text-center text-xl md:text-2xl max-w-xl mx-auto">
             Hi, my name is Kevin!
 
             I'm a developer and IT student from Brazil.

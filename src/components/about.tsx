@@ -1,4 +1,5 @@
 import profile from "../assets/profile.jpg";
+import { Player } from "./player";
 
 export default function About() {
   return (
@@ -18,7 +19,7 @@ export default function About() {
 
               I'm a developer and IT student from Brazil.
               Now, I'm studying more about low-level programming,
-              but sometimes I like to study full-stack/web-development
+              but sometimes I like to study full-stack/web-development.
           </p>
 
         <div className="flex justify-center">
@@ -41,6 +42,10 @@ export default function About() {
             <img src="https://cyber.dabamos.de/88x31/hasmile.gif" alt="88x31" className="w-20 h-auto sm:w-22 md:w-24" />
             <img src="https://cyber.dabamos.de/88x31/defcon1.gif" alt="88x31" className="w-20 h-auto sm:w-22 md:w-24" />
           </div>
+        </div>
+
+        <div className="md:relative left-12 max-w-sm mx-auto rounded-lg overflow-hidden">
+          <Player />
         </div>
       </div>
     </div>

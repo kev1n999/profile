@@ -14,7 +14,7 @@ export default function NavBar() {
             <a href="https://github.com/kev1n999"
               className="
                 text-white relative transition-all md:before:inline-block before:w-4 before:content-['#']
-                hover:before:content-['>'] md:text-2xl underline
+                hover:before:content-['~'] md:text-2xl underline
               "
             >github</a>
         </div>

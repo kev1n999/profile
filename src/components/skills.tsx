@@ -5,9 +5,9 @@ export default function Skills() {
     <BackgroundTheme>
       <div className="flex justify-center p-20">
         <div className="flex flex-col gap-3">
-          <h1 className="text-white text-3xl text-center underline"># Languages/Studies/Tools</h1>
+          <h1 className="text-white text-3xl text-center underline min-w-max"># Some skills</h1>
 
-          <div className="flex flex-col gap-6 pt-6 relative right-36">
+          <div className="flex flex-col gap-6 pt-6 md:relative right-36">
             <div>
               <h1 className="text-white text-2xl p-1 before:content-['>']"> Langs that i know to use</h1>
               <div className="flex flex-row gap-2 mt-4">

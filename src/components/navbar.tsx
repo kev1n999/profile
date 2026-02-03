@@ -10,7 +10,7 @@ export default function NavBar() {
           <NavItem source="/skills" content="skills" />
           <NavItem source="/contacts" content="contacts" />
         </ul>
-        <div className="ml-56 relative right-16 md:static">
+        <div className="ml-56 relative right-20 md:right-16 md:static">
             <a href="https://github.com/kev1n999"
               className="
                 text-white relative transition-all md:before:inline-block before:w-4 before:content-['#']

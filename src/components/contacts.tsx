@@ -5,7 +5,7 @@ export default function Contacts() {
     <BackgroundTheme>
       <div className="flex justify-center gap-3 p-20">
         <div className="flex flex-col gap-3">
-          <h1 className="text-white text-3xl text-center underline"># My avaliable contacts</h1>
+          <h1 className="text-white text-3xl text-center underline min-w-max"># My avaliable contacts</h1>
           <p className="text-neutral-500 text-center">
             If you wanna talk with me :)
           </p>

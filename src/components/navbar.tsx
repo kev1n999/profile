@@ -8,7 +8,7 @@ export default function NavBar() {
         <ul className="relative left-20 flex justify-between gap-3.5 md:static">
           <NavItem source="/" content="home" />
           <NavItem source="/skills" content="skills" />
-          <NavItem source="/contacts" content="contacts" />
+          <NavItem source="/contacts" content="contacts+" />
         </ul>
         <div className="ml-56 relative right-20 md:right-16 md:static">
             <a href="https://github.com/kev1n999"

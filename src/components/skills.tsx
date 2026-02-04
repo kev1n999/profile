@@ -75,6 +75,24 @@ export default function Skills() {
             </div>
 
             <div>
+              <h1 className="text-white text-2xl p-1 before:content-['>']"> Another tools</h1>
+              <div className="flex flex-row gap-2">
+                <a href="https://discord.js.org/">
+                  <img src="/icons/dcjs.svg" className="h-10"></img>
+                </a>
+                <a href="https://discordpy.readthedocs.io/en/stable/">
+                  <img src="/icons/discordpy.png" className="h-10"></img>
+                </a>
+                <a href="https://pptr.dev/">
+                  <img src="/icons/puppeteer.png" className="h-10"></img>
+                </a>
+                <a href="https://vscode.dev/">
+                  <img src="/icons/vscode.svg" className="h-10"></img>
+                </a>
+              </div>
+            </div>
+
+            <div>
               <h1 className="text-white text-2xl p-1 before:content-['>']"> Operational systems i use</h1>
               <div className="flex flex-row gap-2">
                 <a href="https://rust-lang.org/">

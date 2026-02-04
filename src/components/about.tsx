@@ -15,13 +15,12 @@ export default function About() {
 <a href="https://git.io/typing-svg" className="w-64 sm:w-80 md:w-[435px] h-auto"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=960&color=F7F7F7&width=435&lines=Hello!+Welcome+to+my+profile!" alt="Typing SVG" /></a>
         </div>
           <p className="text-neutral-500 text-center text-xl md:text-2xl max-w-xl mx-auto">
-              Hi, my name is Kevin!
+              👾 Hi, my name is Kevin!
 
               I'm a developer and IT student from Brazil.
               Now, I'm studying more about low-level programming,
               but sometimes I like to study full-stack/web-development.
-          </p>
-
+        </p>
         <div className="flex justify-center">
           <div className="grid grid-cols-5 p-6 gap-2">
             <img src="https://cyber.dabamos.de/88x31/88x31.gif" alt="88x31" className="w-20 h-auto sm:w-22 md:w-24" />
